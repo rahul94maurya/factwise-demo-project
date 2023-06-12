@@ -1,0 +1,60 @@
+.demo {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.remo {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.img {
+  border-radius: 100%;
+  height: 48px;
+  width: 48px;
+  border: 1px solid #aaa;
+}
+.input {
+  height: 24px;
+  border-radius: 8px;
+  border: 1.5px solid #aaa;
+}
+.input-header-name {
+  height: 30px;
+  font-size: 18px;
+  border-radius: 8px;
+  border: 1.5px solid #aaa;
+}
+.input-header-name:read-only {
+  border: none;
+  outline: none;
+  background-color: inherit;
+}
+.select {
+  border-radius: 8px;
+  border: 1.5px solid #aaa;
+}
+.input:read-only {
+  border: none;
+  outline: none;
+}
+
+.text-Area:read-only {
+  border: none;
+  overflow: hidden;
+  outline: none;
+  resize: none;
+}
+
+.select:disabled {
+  background-color: white;
+  border: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  color: currentColor;
+}
+.errors {
+  color: red;
+  font-size: 14px;
+}

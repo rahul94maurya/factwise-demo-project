@@ -1,0 +1,10 @@
+/* body {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  font-family: "Open Sans", Arial, sans-serif;
+} */
+.test {
+  background-color: white !important;
+  color: black !important;
+}
